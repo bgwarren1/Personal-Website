@@ -2,18 +2,41 @@
 title: "personal-website"
 ---
 
-This is a Quarto website.
+---
+title: "Blair Warren"
+about:
+  template: solana
+  image: IMG_3331.JPG
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/bgwarren1
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/blairgwarren/
+    - text: Email
+      url: "mailto:blairgwarren@gmail.com"
+    - text: Resume
+      url: "bgwresume.pdf"
+      
+---
+My [RESUME](/bgwresume.pdf)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hi! My name is Blair Warren, I am from Chicago, and I am a 4th-year Statistics & Data Science major with a minor in mathematics at UCLA. I have previously interned at PNC Bank, Sparrow Golf, and Cirque Analytics. 
 
-```{r}
-1 + 1
-```
 
-```{r}
-runif(10)
-```
 
-```{r}
-runif(100)
-```
+
+## Education
+
+University of California, Los Angeles | Los Angeles, CA
+B.S. in Statistics & Data Science | Sept 2022 - June 2026
+
+
+## Experience
+
+PNC Bank | Quantitative Analyst Intern | May 2025 - August 2025
+
+Sparrow Golf | AI Engineering/ Business Operations Intern | April 2024 - April 2025
+
+Cirque Analytics | Data Analyst Intern | April 2023 - July 2023

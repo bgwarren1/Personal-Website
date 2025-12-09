@@ -1,0 +1,19 @@
+---
+title: "Projects"
+toc: false
+---
+
+About this site
+
+### U-Know-Uno
+Built an online Uno card game solver that gives the most probabilistically optimal move on each turn
+
+Link to repository [U-Know-Uno](https://github.com/bgwarren1/U-know-Uno)
+
+
+
+### Big 10 Transition Analysis
+Performed predictive analysis on the 4 football teams (UCLA, USC, Oregon, Washington) that were migrating to the Big 10, and predicted the success based on weather, travel, and performance data
+
+Link to repository [Big 10 Transition Analysis](https://github.com/bgwarren1/bsa-big10-predictive-analysis)
+

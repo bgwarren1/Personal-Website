@@ -1,16 +1,30 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "personal-website",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\nrunif(10)\n\n [1] 0.4111223 0.8044131 0.4549974 0.8531733 0.1339648 0.2598907 0.5365606\n [8] 0.4815186 0.4731563 0.5310132"
+    "text": "About this site\n\nU-Know-Uno\nBuilt an online Uno card game solver that gives the most probabilistically optimal move on each turn\nLink to repository U-Know-Uno\n\n\nBig 10 Transition Analysis\nPerformed predictive analysis on the 4 football teams (UCLA, USC, Oregon, Washington) that were migrating to the Big 10, and predicted the success based on weather, travel, and performance data\nLink to repository Big 10 Transition Analysis"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blair Warren",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "My RESUME\nHi! My name is Blair Warren, I am from Chicago, and I am a 4th-year Statistics & Data Science major with a minor in mathematics at UCLA. I have previously interned at PNC Bank, Sparrow Golf, and Cirque Analytics."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Blair Warren",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Los Angeles | Los Angeles, CA B.S. in Statistics & Data Science | Sept 2022 - June 2026"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Blair Warren",
+    "section": "Experience",
+    "text": "Experience\nPNC Bank | Quantitative Analyst Intern | May 2025 - August 2025\nSparrow Golf | AI Engineering/ Business Operations Intern | April 2024 - April 2025\nCirque Analytics | Data Analyst Intern | April 2023 - July 2023"
   }
 ]
