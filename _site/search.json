@@ -4,27 +4,55 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "About this site\n\nU-Know-Uno\nBuilt an online Uno card game solver that gives the most probabilistically optimal move on each turn\nLink to repository U-Know-Uno\n\n\nBig 10 Transition Analysis\nPerformed predictive analysis on the 4 football teams (UCLA, USC, Oregon, Washington) that were migrating to the Big 10, and predicted the success based on weather, travel, and performance data\nLink to repository Big 10 Transition Analysis"
+    "text": "Below are selected projects that demonstrate my technical skills and analytical thinking across machine learning, statistical modeling, and software development.\n\n\n\nLive Site: u-know-uno.netlify.app\nRepository: github.com/bgwarren1/U-know-Uno\nAn interactive web application that calculates probabilistically optimal moves for the card game Uno using Monte Carlo simulation and game tree analysis.\nKey Features:\n\nReal-time Optimization: Analyzes game state and computes optimal play strategies in milliseconds\nProbability Visualization: Interactive charts showing win probabilities for each possible move\nCustom Game Logic: Implements full Uno rule set including special cards, stacking, and challenge mechanics\nResponsive Interface: Clean, intuitive UI built for both desktop and mobile gameplay\n\nTechnical Implementation:\n\nDeveloped custom probability engine using Monte Carlo methods to simulate thousands of game outcomes\nImplemented efficient game state representation and move generation algorithms\nBuilt frontend with modern JavaScript frameworks for smooth, responsive user experience\nOptimized performance to handle complex calculations without blocking UI\n\nImpact: Created a tool that helps players understand strategic decision-making in Uno through quantitative analysis, making probability theory accessible and engaging.\n\n\n\n\nRepository: github.com/bgwarren1/bsa-big10-predictive-analysis\nA comprehensive data science project analyzing the 2024 Big Ten conference expansion, predicting how UCLA, USC, Oregon, and Washington would perform after transitioning from the Pac-12.\nResearch Questions:\n\nHow do environmental factors (weather, travel distance) impact team performance?\nCan we predict win probability based on historical patterns and new conference dynamics?\nWhat competitive advantages or disadvantages do West Coast teams face in the Big Ten?\n\nMethodology:\n\nData Collection: Aggregated multi-season data including game results, weather conditions, travel distances, and team statistics\nFeature Engineering: Created novel metrics combining geographic, climatic, and performance variables\nPredictive Modeling: Built and compared multiple models (logistic regression, random forest, gradient boosting) to forecast game outcomes\nStatistical Validation: Conducted rigorous hypothesis testing and cross-validation to ensure model reliability\n\nKey Findings:\n\nQuantified the impact of travel fatigue on away game performance for West Coast teams\nIdentified weather adaptation as a significant factor in predicted win rates\nDeveloped conference-adjusted power rankings based on historical matchup data\n\nTechnologies Used: Python (pandas, scikit-learn, statsmodels), R (ggplot2, dplyr), Jupyter Notebooks, statistical hypothesis testing\nOutcome: Produced actionable insights into competitive dynamics of conference realignment, demonstrating ability to apply data science to sports analytics and strategic forecasting."
+  },
+  {
+    "objectID": "projects.html#additional-work",
+    "href": "projects.html#additional-work",
+    "title": "Projects",
+    "section": "Additional Work",
+    "text": "Additional Work\nI’m continuously working on new projects that explore machine learning, statistical modeling, and data visualization. Check my GitHub for the latest updates and contributions.\nAreas of Interest:\n\nFinancial modeling and quantitative trading strategies\nSports analytics and predictive modeling\nMachine learning applications in real-world domains\nData visualization and interactive web applications\n\n\nWant to collaborate or discuss these projects? Get in touch!"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Blair Warren",
     "section": "",
-    "text": "My RESUME\nHi! My name is Blair Warren, I am from Chicago, and I am a 4th-year Statistics & Data Science major with a minor in mathematics at UCLA. I have previously interned at PNC Bank, Sparrow Golf, and Cirque Analytics."
+    "text": "I’m a fourth-year Statistics & Data Science major with a Mathematics minor at UCLA, passionate about using quantitative methods to solve complex problems. My experience spans financial analytics, AI engineering, and predictive modeling, with a particular interest in applying statistical techniques to real-world challenges.\nBased in Chicago and studying in Los Angeles, I’ve developed expertise in data analysis, machine learning, and software development through internships at leading organizations and hands-on projects that combine technical rigor with practical impact."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Blair Warren",
     "section": "Education",
-    "text": "Education\nUniversity of California, Los Angeles | Los Angeles, CA B.S. in Statistics & Data Science | Sept 2022 - June 2026"
+    "text": "Education\nUniversity of California, Los Angeles | Los Angeles, CA\nB.S. in Statistics & Data Science, Minor in Mathematics\nSeptember 2022 - June 2026\nRelevant Coursework: Statistical Machine Learning, Probability Theory, Data Mining, Computational Statistics, Linear Algebra, Optimization"
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
+    "objectID": "index.html#professional-experience",
+    "href": "index.html#professional-experience",
     "title": "Blair Warren",
-    "section": "Experience",
-    "text": "Experience\nPNC Bank | Quantitative Analyst Intern | May 2025 - August 2025\nSparrow Golf | AI Engineering/ Business Operations Intern | April 2024 - April 2025\nCirque Analytics | Data Analyst Intern | April 2023 - July 2023"
+    "section": "Professional Experience",
+    "text": "Professional Experience\nPNC Bank | Pittsburgh, PA\nQuantitative Analyst Intern | May 2025 - August 2025\n\nDeveloping quantitative models for risk assessment and financial forecasting\nAnalyzing large-scale financial datasets to identify trends and patterns\nCollaborating with senior analysts on strategic decision-making initiatives\n\nSparrow Golf | Remote\nAI Engineering & Business Operations Intern | April 2024 - April 2025\n\nEngineered AI-driven solutions to optimize golf training and performance analytics\nDesigned and implemented data pipelines for real-time performance tracking\nCollaborated cross-functionally to align technical capabilities with business objectives\n\nCirque Analytics | Remote\nData Analyst Intern | April 2023 - July 2023\n\nConducted exploratory data analysis on customer behavior and market trends\nCreated interactive dashboards and visualizations to communicate insights to stakeholders\nAutomated data collection and reporting processes, improving efficiency by 40%"
+  },
+  {
+    "objectID": "index.html#skills-tools",
+    "href": "index.html#skills-tools",
+    "title": "Blair Warren",
+    "section": "Skills & Tools",
+    "text": "Skills & Tools\nProgramming: Python, R, SQL, JavaScript, MATLAB\nData Science: Statistical Modeling, Machine Learning, Predictive Analytics, Data Visualization\nTools & Technologies: TensorFlow, scikit-learn, pandas, ggplot2, Tableau, Git"
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Blair Warren",
+    "section": "Featured Projects",
+    "text": "Featured Projects\nExplore my Projects page to see detailed work including:\n\nU-Know-Uno: A probabilistic Uno card game solver using Monte Carlo simulation\nBig 10 Transition Analysis: Predictive modeling of college football performance metrics"
+  },
+  {
+    "objectID": "index.html#connect",
+    "href": "index.html#connect",
+    "title": "Blair Warren",
+    "section": "Connect",
+    "text": "Connect\nI’m always interested in discussing data science opportunities, quantitative research, or potential collaborations. Feel free to reach out via email or connect with me on LinkedIn."
   }
 ]

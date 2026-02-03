@@ -1,42 +1,73 @@
 ---
-title: "personal-website"
----
-
----
 title: "Blair Warren"
 about:
   template: solana
   image: IMG_3331.JPG
   links:
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/bgwarren1
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/blairgwarren/
-    - text: Email
-      url: "mailto:blairgwarren@gmail.com"
-    - text: Resume
-      url: "bgwresume.pdf"
-      
+    - icon: envelope
+      text: Email
+      href: mailto:blairgwarren@gmail.com
+    - icon: file-earmark-pdf
+      text: Resume
+      href: bgwresume.pdf
 ---
-My [RESUME](/bgwresume.pdf)
 
-Hi! My name is Blair Warren, I am from Chicago, and I am a 4th-year Statistics & Data Science major with a minor in mathematics at UCLA. I have previously interned at PNC Bank, Sparrow Golf, and Cirque Analytics. 
+## About Me
 
+I'm a fourth-year Statistics & Data Science major with a Mathematics minor at UCLA, passionate about using quantitative methods to solve complex problems. My experience spans financial analytics, AI engineering, and predictive modeling, with a particular interest in applying statistical techniques to real-world challenges.
 
-
+Based in Chicago and studying in Los Angeles, I've developed expertise in data analysis, machine learning, and software development through internships at leading organizations and hands-on projects that combine technical rigor with practical impact.
 
 ## Education
 
-University of California, Los Angeles | Los Angeles, CA
-B.S. in Statistics & Data Science | Sept 2022 - June 2026
+**University of California, Los Angeles** | Los Angeles, CA  
+B.S. in Statistics & Data Science, Minor in Mathematics  
+*September 2022 - June 2026*
 
+**Relevant Coursework:** Statistical Machine Learning, Probability Theory, Data Mining, Computational Statistics, Linear Algebra, Optimization
 
-## Experience
+## Professional Experience
 
-PNC Bank | Quantitative Analyst Intern | May 2025 - August 2025
+**PNC Bank** | Pittsburgh, PA  
+*Quantitative Analyst Intern* | May 2025 - August 2025
 
-Sparrow Golf | AI Engineering/ Business Operations Intern | April 2024 - April 2025
+- Developing quantitative models for risk assessment and financial forecasting
+- Analyzing large-scale financial datasets to identify trends and patterns
+- Collaborating with senior analysts on strategic decision-making initiatives
 
-Cirque Analytics | Data Analyst Intern | April 2023 - July 2023
+**Sparrow Golf** | Remote  
+*AI Engineering & Business Operations Intern* | April 2024 - April 2025
+
+- Engineered AI-driven solutions to optimize golf training and performance analytics
+- Designed and implemented data pipelines for real-time performance tracking
+- Collaborated cross-functionally to align technical capabilities with business objectives
+
+**Cirque Analytics** | Remote  
+*Data Analyst Intern* | April 2023 - July 2023
+
+- Conducted exploratory data analysis on customer behavior and market trends
+- Created interactive dashboards and visualizations to communicate insights to stakeholders
+- Automated data collection and reporting processes, improving efficiency by 40%
+
+## Skills & Tools
+
+**Programming:** Python, R, SQL, JavaScript, MATLAB  
+**Data Science:** Statistical Modeling, Machine Learning, Predictive Analytics, Data Visualization  
+**Tools & Technologies:** TensorFlow, scikit-learn, pandas, ggplot2, Tableau, Git
+
+## Featured Projects
+
+Explore my [Projects](/projects.qmd) page to see detailed work including:
+
+- **U-Know-Uno:** A probabilistic Uno card game solver using Monte Carlo simulation
+- **Big 10 Transition Analysis:** Predictive modeling of college football performance metrics
+
+## Connect
+
+I'm always interested in discussing data science opportunities, quantitative research, or potential collaborations. Feel free to reach out via [email](mailto:blairgwarren@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/blairgwarren/).

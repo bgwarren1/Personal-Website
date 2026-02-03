@@ -58,12 +58,13 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -87,6 +88,27 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./projects.html" aria-current="page">
  <span class="menu-text">Projects</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./bgwresume.pdf">
+ <span class="menu-text">Resume</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/bgwarren1"><i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/blairgwarren/"><i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:blairgwarren@gmail.com"><i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
@@ -97,7 +119,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#featured-work" id="toc-featured-work" class="nav-link active" data-scroll-target="#featured-work">Featured Work</a></li>
+  <li><a href="#additional-work" id="toc-additional-work" class="nav-link" data-scroll-target="#additional-work">Additional Work</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -118,16 +149,72 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>About this site</p>
-<section id="u-know-uno" class="level3">
-<h3 class="anchored" data-anchor-id="u-know-uno">U-Know-Uno</h3>
-<p>Built an online Uno card game solver that gives the most probabilistically optimal move on each turn</p>
-<p>Link to repository <a href="https://github.com/bgwarren1/U-know-Uno">U-Know-Uno</a></p>
+<section id="featured-work" class="level2">
+<h2 class="anchored" data-anchor-id="featured-work">Featured Work</h2>
+<p>Below are selected projects that demonstrate my technical skills and analytical thinking across machine learning, statistical modeling, and software development.</p>
+<hr>
+<section id="u-know-uno-probabilistic-game-solver" class="level3">
+<h3 class="anchored" data-anchor-id="u-know-uno-probabilistic-game-solver">U-Know-Uno: Probabilistic Game Solver</h3>
+<p><strong>Live Site:</strong> <a href="https://u-know-uno.netlify.app">u-know-uno.netlify.app</a><br>
+<strong>Repository:</strong> <a href="https://github.com/bgwarren1/U-know-Uno">github.com/bgwarren1/U-know-Uno</a></p>
+<p>An interactive web application that calculates probabilistically optimal moves for the card game Uno using Monte Carlo simulation and game tree analysis.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li><strong>Real-time Optimization:</strong> Analyzes game state and computes optimal play strategies in milliseconds</li>
+<li><strong>Probability Visualization:</strong> Interactive charts showing win probabilities for each possible move</li>
+<li><strong>Custom Game Logic:</strong> Implements full Uno rule set including special cards, stacking, and challenge mechanics</li>
+<li><strong>Responsive Interface:</strong> Clean, intuitive UI built for both desktop and mobile gameplay</li>
+</ul>
+<p><strong>Technical Implementation:</strong></p>
+<ul>
+<li>Developed custom probability engine using Monte Carlo methods to simulate thousands of game outcomes</li>
+<li>Implemented efficient game state representation and move generation algorithms</li>
+<li>Built frontend with modern JavaScript frameworks for smooth, responsive user experience</li>
+<li>Optimized performance to handle complex calculations without blocking UI</li>
+</ul>
+<p><strong>Impact:</strong> Created a tool that helps players understand strategic decision-making in Uno through quantitative analysis, making probability theory accessible and engaging.</p>
+<hr>
 </section>
-<section id="big-10-transition-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="big-10-transition-analysis">Big 10 Transition Analysis</h3>
-<p>Performed predictive analysis on the 4 football teams (UCLA, USC, Oregon, Washington) that were migrating to the Big 10, and predicted the success based on weather, travel, and performance data</p>
-<p>Link to repository <a href="https://github.com/bgwarren1/bsa-big10-predictive-analysis">Big 10 Transition Analysis</a></p>
+<section id="big-10-transition-analysis-predictive-modeling-in-college-football" class="level3">
+<h3 class="anchored" data-anchor-id="big-10-transition-analysis-predictive-modeling-in-college-football">Big 10 Transition Analysis: Predictive Modeling in College Football</h3>
+<p><strong>Repository:</strong> <a href="https://github.com/bgwarren1/bsa-big10-predictive-analysis">github.com/bgwarren1/bsa-big10-predictive-analysis</a></p>
+<p>A comprehensive data science project analyzing the 2024 Big Ten conference expansion, predicting how UCLA, USC, Oregon, and Washington would perform after transitioning from the Pac-12.</p>
+<p><strong>Research Questions:</strong></p>
+<ul>
+<li>How do environmental factors (weather, travel distance) impact team performance?</li>
+<li>Can we predict win probability based on historical patterns and new conference dynamics?</li>
+<li>What competitive advantages or disadvantages do West Coast teams face in the Big Ten?</li>
+</ul>
+<p><strong>Methodology:</strong></p>
+<ul>
+<li><strong>Data Collection:</strong> Aggregated multi-season data including game results, weather conditions, travel distances, and team statistics</li>
+<li><strong>Feature Engineering:</strong> Created novel metrics combining geographic, climatic, and performance variables</li>
+<li><strong>Predictive Modeling:</strong> Built and compared multiple models (logistic regression, random forest, gradient boosting) to forecast game outcomes</li>
+<li><strong>Statistical Validation:</strong> Conducted rigorous hypothesis testing and cross-validation to ensure model reliability</li>
+</ul>
+<p><strong>Key Findings:</strong></p>
+<ul>
+<li>Quantified the impact of travel fatigue on away game performance for West Coast teams</li>
+<li>Identified weather adaptation as a significant factor in predicted win rates</li>
+<li>Developed conference-adjusted power rankings based on historical matchup data</li>
+</ul>
+<p><strong>Technologies Used:</strong> Python (pandas, scikit-learn, statsmodels), R (ggplot2, dplyr), Jupyter Notebooks, statistical hypothesis testing</p>
+<p><strong>Outcome:</strong> Produced actionable insights into competitive dynamics of conference realignment, demonstrating ability to apply data science to sports analytics and strategic forecasting.</p>
+<hr>
+</section>
+</section>
+<section id="additional-work" class="level2">
+<h2 class="anchored" data-anchor-id="additional-work">Additional Work</h2>
+<p>I’m continuously working on new projects that explore machine learning, statistical modeling, and data visualization. Check my <a href="https://github.com/bgwarren1">GitHub</a> for the latest updates and contributions.</p>
+<p><strong>Areas of Interest:</strong></p>
+<ul>
+<li>Financial modeling and quantitative trading strategies</li>
+<li>Sports analytics and predictive modeling</li>
+<li>Machine learning applications in real-world domains</li>
+<li>Data visualization and interactive web applications</li>
+</ul>
+<hr>
+<p><em>Want to collaborate or discuss these projects? <a href="mailto:blairgwarren@gmail.com">Get in touch!</a></em></p>
 
 
 </section>
@@ -264,15 +351,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-right">© 2025, Blair Warren</div>
+    <div class="nav-footer-left">Blair Warren | Statistics &amp; Data Science</div>   
+    <div class="nav-footer-right">© 2025</div>
   </div>
 </footer>
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

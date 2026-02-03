@@ -1,23 +1,44 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "Blair Warren"
+  description: "Statistics & Data Science at UCLA | Quantitative Analytics"
+  
   navbar:
+    background: dark
     left:
       - href: index.qmd
         text: Home
-      - projects.qmd
+      - href: projects.qmd
+        text: Projects
+      - href: bgwresume.pdf
+        text: Resume
+    right:
+      - icon: github
+        href: https://github.com/bgwarren1
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/blairgwarren/
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:blairgwarren@gmail.com
+        aria-label: Email
     
   page-footer: 
-    right: "&copy; 2025, Blair Warren"
+    left: "Blair Warren | Statistics & Data Science"
+    right: "© 2025"
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: [cosmo, custom.scss]
     css: styles.css
     toc: true
-
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true
+    
 execute: 
   freeze: auto
-

@@ -1,19 +1,81 @@
 ---
 title: "Projects"
-toc: false
 ---
 
-About this site
+## Featured Work
 
-### U-Know-Uno
-Built an online Uno card game solver that gives the most probabilistically optimal move on each turn
+Below are selected projects that demonstrate my technical skills and analytical thinking across machine learning, statistical modeling, and software development.
 
-Link to repository [U-Know-Uno](https://github.com/bgwarren1/U-know-Uno)
+---
 
+### U-Know-Uno: Probabilistic Game Solver
 
+**Live Site:** [u-know-uno.netlify.app](https://u-know-uno.netlify.app)  
+**Repository:** [github.com/bgwarren1/U-know-Uno](https://github.com/bgwarren1/U-know-Uno)
 
-### Big 10 Transition Analysis
-Performed predictive analysis on the 4 football teams (UCLA, USC, Oregon, Washington) that were migrating to the Big 10, and predicted the success based on weather, travel, and performance data
+An interactive web application that calculates probabilistically optimal moves for the card game Uno using Monte Carlo simulation and game tree analysis.
 
-Link to repository [Big 10 Transition Analysis](https://github.com/bgwarren1/bsa-big10-predictive-analysis)
+**Key Features:**
+
+- **Real-time Optimization:** Analyzes game state and computes optimal play strategies in milliseconds
+- **Probability Visualization:** Interactive charts showing win probabilities for each possible move
+- **Custom Game Logic:** Implements full Uno rule set including special cards, stacking, and challenge mechanics
+- **Responsive Interface:** Clean, intuitive UI built for both desktop and mobile gameplay
+
+**Technical Implementation:**
+
+- Developed custom probability engine using Monte Carlo methods to simulate thousands of game outcomes
+- Implemented efficient game state representation and move generation algorithms
+- Built frontend with modern JavaScript frameworks for smooth, responsive user experience
+- Optimized performance to handle complex calculations without blocking UI
+
+**Impact:** Created a tool that helps players understand strategic decision-making in Uno through quantitative analysis, making probability theory accessible and engaging.
+
+---
+
+### Big 10 Transition Analysis: Predictive Modeling in College Football
+
+**Repository:** [github.com/bgwarren1/bsa-big10-predictive-analysis](https://github.com/bgwarren1/bsa-big10-predictive-analysis)
+
+A comprehensive data science project analyzing the 2024 Big Ten conference expansion, predicting how UCLA, USC, Oregon, and Washington would perform after transitioning from the Pac-12.
+
+**Research Questions:**
+
+- How do environmental factors (weather, travel distance) impact team performance?
+- Can we predict win probability based on historical patterns and new conference dynamics?
+- What competitive advantages or disadvantages do West Coast teams face in the Big Ten?
+
+**Methodology:**
+
+- **Data Collection:** Aggregated multi-season data including game results, weather conditions, travel distances, and team statistics
+- **Feature Engineering:** Created novel metrics combining geographic, climatic, and performance variables
+- **Predictive Modeling:** Built and compared multiple models (logistic regression, random forest, gradient boosting) to forecast game outcomes
+- **Statistical Validation:** Conducted rigorous hypothesis testing and cross-validation to ensure model reliability
+
+**Key Findings:**
+
+- Quantified the impact of travel fatigue on away game performance for West Coast teams
+- Identified weather adaptation as a significant factor in predicted win rates
+- Developed conference-adjusted power rankings based on historical matchup data
+
+**Technologies Used:** Python (pandas, scikit-learn, statsmodels), R (ggplot2, dplyr), Jupyter Notebooks, statistical hypothesis testing
+
+**Outcome:** Produced actionable insights into competitive dynamics of conference realignment, demonstrating ability to apply data science to sports analytics and strategic forecasting.
+
+---
+
+## Additional Work
+
+I'm continuously working on new projects that explore machine learning, statistical modeling, and data visualization. Check my [GitHub](https://github.com/bgwarren1) for the latest updates and contributions.
+
+**Areas of Interest:**
+
+- Financial modeling and quantitative trading strategies
+- Sports analytics and predictive modeling
+- Machine learning applications in real-world domains
+- Data visualization and interactive web applications
+
+---
+
+*Want to collaborate or discuss these projects? [Get in touch!](mailto:blairgwarren@gmail.com)*
 
