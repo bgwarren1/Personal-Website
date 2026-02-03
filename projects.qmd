@@ -10,7 +10,7 @@ Below are selected projects that demonstrate my technical skills and analytical 
 
 ### U-Know-Uno: Probabilistic Game Solver
 
-**Live Site:** [u-know-uno.netlify.app](https://u-know-uno.netlify.app)  
+**Live Site:** [https://uknowuno.streamlit.app/](https://uknowuno.streamlit.app/)  
 **Repository:** [github.com/bgwarren1/U-know-Uno](https://github.com/bgwarren1/U-know-Uno)
 
 An interactive web application that calculates probabilistically optimal moves for the card game Uno using Monte Carlo simulation and game tree analysis.
